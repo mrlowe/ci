@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="MyApp" />
+  <setParameter name="MyAppContext-Web.config Connection String" value="Server=.\SQLEXPRESS;Database=MyApp;Integrated Security=True;" />
+  <setParameter name="MyAppContext_DatabasePublish-Web.config Connection String" value="MyAppContext_DatabasePublish.ConnetionString" />
+</parameters>
