@@ -10,5 +10,6 @@ namespace MyApp
         public long ThingId { get; set; }
         public string Name { get; set; }
         public int Flag { get; set; }
+        public int Flag2 { get; set; }
     }
 }

@@ -135,6 +135,10 @@
     <Compile Include="Migrations\201411170126275_AddFlag.Designer.cs">
       <DependentUpon>201411170126275_AddFlag.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201411171434092_AddFlag2.cs" />
+    <Compile Include="Migrations\201411171434092_AddFlag2.Designer.cs">
+      <DependentUpon>201411171434092_AddFlag2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thing.cs" />
@@ -255,6 +259,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201411170126275_AddFlag.resx">
       <DependentUpon>201411170126275_AddFlag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201411171434092_AddFlag2.resx">
+      <DependentUpon>201411171434092_AddFlag2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
